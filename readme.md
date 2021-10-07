@@ -33,15 +33,6 @@ Note: Delete storage/mysql-data folder if it is exist.
 
 4.Build and start the image from your terminal:
 ```bash
-make build
-make start
-make composer-install
+make all
 ```
-
-5.Make sure that you have installed migrations/seeds:
-```bash
-make migrate
-make seed
-```
-
-6.In order to use this application, please open in your browser next url: [http://localhost](http://localhost).
+5.In order to use this application, please open in your browser next url: [http://localhost](http://localhost).

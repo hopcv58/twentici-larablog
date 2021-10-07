@@ -27,7 +27,7 @@ class RolesTableSeeder extends Seeder
         ]);
 
         $author = Role::create([
-            'name' => '`author`',
+            'name' => 'author',
             'display_name' => 'Author'
         ]);
         /**

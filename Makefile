@@ -76,3 +76,10 @@ migrate:
 
 seed:
 	@make exec-bash cmd="php artisan db:seed --force"
+
+all:
+	@make build
+	@make start
+	@make composer-install
+	@make migrate
+	@make seed
